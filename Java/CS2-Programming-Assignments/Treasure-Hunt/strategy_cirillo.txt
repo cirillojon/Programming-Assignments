@@ -1,0 +1,17 @@
+Name: Jonathan Cirillo
+
+I used the website https://csacademy.com/app/graph_editor/ to create the test cases and ensure that the output 
+was being generated correctly. This website has a very helpful graph_editor feature that allows to build the graphs. 
+
+
+Correct output for the test cases - 
+
+Test Case 1:
+In city: 3
+On the road: 6
+
+Test Case 2:
+For test case 2:
+In city: 2
+On the road: 2
+

@@ -1,0 +1,11 @@
+
+Testing Strategy
+Jonathan Cirillo - Assign3
+_______________
+
+My algorithm takes a niave approach and performs all the union operations initially. While it is doing this, it keeps track of all 
+the connections that were formed. After the initial connectivity is calculated, my program enters a loop to recalculate connectivities after
+each given connection is destroyed. This loop checks for many different cases, and updates and repairs the disjoint-set accordingly. 
+I added a "numDeletions" attribute to the pair class to keep track of which leaves had connections destroyed. 
+Unfortunately, due to this tedious, brute-force approach, the program takes quite a long time to run for the larger test case due to nested for loops and
+lack of path compression.
